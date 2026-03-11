@@ -1,4 +1,4 @@
-function FloatingTextarea({label, name}) {
+function FloatingTextArea({label, name}) {
   return (
     <div className="relative">
 
@@ -31,4 +31,4 @@ function FloatingTextarea({label, name}) {
   )
 }
 
-export default FloatingTextarea
+export default FloatingTextArea
