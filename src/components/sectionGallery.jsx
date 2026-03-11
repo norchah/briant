@@ -7,7 +7,7 @@ function SectionGallery() {
       <Container>
         <div className='flex justify-center items-center mr-20 pb-20 py-30'>
           <div
-            className='text-[16px] lg:text-[16px] font-[300] text-center mb-10 md:mb-0 mx-auto text-start pl-20'>
+            className='text-[16px] lg:text-[16px] font-[300] text-center mb-10 md:mb-0 mx-auto text-start px-20'>
             <p>Немногие вещи в этом мире обладают силой связывать нас с нашими воспоминаниями, как это делают
               драгоценности.</p>
             <p>Это символ любви и жизни, который создает вечную связь.</p>
