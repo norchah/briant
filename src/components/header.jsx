@@ -10,9 +10,9 @@ function Header(props) {
     bg-[rgba(0,0,0,0.3)]
     ">
       <div className="container mx-auto flex justify-between items-center h-full font-semibold">
-        <div className='w-14 sm:w-18 lg:w-22'>
+        <a href='/' className='w-16 sm:w-22 lg:w-28'>
           <img src='/logo/logoBgFree.png' alt='logo'/>
-        </div>
+        </a>
         <nav aria-label="Разделы сайта" className="">
           <ul className="flex gap-2 sm:gap-4">
             <li>

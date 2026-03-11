@@ -5,9 +5,9 @@ function SectionGallery() {
   return (
     <section className="w-full bg-[#dcd2d2] px-5 sm:px-10 text-black italic pb-10" id='gallery'>
       <Container>
-        <div className='flex justify-center items-center mr-20 pb-20 py-30'>
+        <div className='flex flex-col md:flex-row justify-center items-center md:mr-20 md:pb-20 py-30'>
           <div
-            className='text-[16px] lg:text-[16px] font-[300] text-center mb-10 md:mb-0 mx-auto text-start px-20'>
+            className='text-[16px] font-[300] text-center mb-10 md:mb-0 mx-auto text-center md:text-start sm:px-20'>
             <p>Немногие вещи в этом мире обладают силой связывать нас с нашими воспоминаниями, как это делают
               драгоценности.</p>
             <p>Это символ любви и жизни, который создает вечную связь.</p>

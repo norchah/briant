@@ -4,9 +4,14 @@ function SectionHero(props) {
   return (
     <section
       className="w-full h-screen mt-[-80px] text-white
-      bg-[url(/bg/hero_bg.webp)] bg-cover bg-cover bg-center bg-no-repeat
-      {/*bg-position-[center_-70px] md:bg-position-[center_-100px]*/}
-      ">
+      "
+    style={{
+      backgroundImage: `url(/bg/hero_bg.webp)`,
+      backgroundAttachment: "fixed",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      backgroundPosition: "center 75%"
+    }}>
 
       <div className="w-full h-full flex flex-col justify-center items-center"
            style={{background: "rgba(0,0,0,0.3)"}}>
