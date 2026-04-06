@@ -10,10 +10,10 @@ function SectionHero(props) {
       backgroundAttachment: "fixed",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      backgroundPosition: "center 75%"
+      backgroundPosition: "center 82%"
     }}>
 
-      <div className="w-full h-full flex flex-col justify-center items-center"
+      <div className="w-full h-full text-[#e4f6e6] flex flex-col justify-center items-center"
            style={{background: "rgba(0,0,0,0.3)"}}>
         <p className="text-[14px] sm:text-[22px] font-bold
          drop-shadow-2xl [-webkit-text-stroke:1px_rgba(0,0,0,0.14)]
@@ -26,9 +26,8 @@ function SectionHero(props) {
         ">
           Бриант
         </h2>
-        <p className="
-        text-[16px] font-bold sm:text-[22px] text-center drop-shadow-2xl [-webkit-text-stroke:1px_rgba(0,0,0,0.4)]
-        ">
+        <p className="text-[16px] font-bold sm:text-[22px] text-center
+         drop-shadow-2xl [-webkit-text-stroke:1px_rgba(0,0,0,0.4)]">
           Ювелирная компания
         </p>
 

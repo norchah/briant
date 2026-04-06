@@ -15,7 +15,7 @@ function SectionGallery() {
             </p>
           </div>
 
-          <a className='block bg-[#9a7f7f] text-white not-italic py-3 px-10 font-bold rounded-xl'>
+          <a className='block bg-[#9a7f7f] text-white not-italic py-3 px-10 font-bold rounded-xl hover:cursor-pointer'>
             Посмотрю
           </a>
         </div>
